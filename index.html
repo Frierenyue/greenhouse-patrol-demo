@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#355e43">
+  <meta name="description" content="智慧大棚合作提案演示：从设备异常到人工核实、处理回执与服务跟进。">
+  <title>大棚巡护 · 从异常到一次处理</title>
+  <link rel="stylesheet" href="style.css"><script src="data.js" defer></script><script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#farmer" aria-label="大棚巡护首页">大棚巡护<span>从异常到一次处理</span></a>
+    <nav aria-label="演示角色"><button data-view="farmer">管理员端</button><button data-view="manager">服务端</button></nav>
+    <div class="header-right"><span>合作提案演示</span><button id="about" class="icon-btn" aria-label="数据与演示说明">⋯</button></div>
+  </header>
+  <main id="main"></main>
+  <footer class="footer"><span>模拟案例 · 未接入设备或实际控制 · 非联通官方产品</span><button id="source-footer">资料依据与边界 ↗</button></footer>
+  <dialog id="dialog"><div class="dialog-head"><span id="dialog-label"></span><button id="close-dialog" class="icon-btn" aria-label="关闭弹窗">×</button></div><div id="dialog-body"></div></dialog>
+  <div id="toast" class="toast" role="status"></div>
+</body>
+</html>
